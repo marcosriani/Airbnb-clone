@@ -1,12 +1,22 @@
 import React from 'react';
 import Banner from './Banner';
+import Card from './Card';
 import './Home.css';
 
 function Home() {
   return (
     <div className='home'>
-      <h1>Home component</h1>
       <Banner />
+      <div className='home__section'>
+        <Card />
+        <Card />
+        <Card />
+      </div>
+      <div className='home__section'>
+        <Card />
+        <Card />
+        <Card />
+      </div>
     </div>
   );
 }
